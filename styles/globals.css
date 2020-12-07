@@ -1,3 +1,5 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,192 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.screen {
+  background: url(../assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2.5rem;
+  flex-wrap: wrap;
+}
+
+header .media-nav {
+  font-size: 2rem;
+  color: #8f97aa;
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+header .media-nav .active {
+  font-weight: 700;
+  color: white;
+}
+
+header .settings {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header .settings .fa {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+header .settings .time {
+  font-size: 2rem;
+  color: white;
+}
+
+header .settings .user {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.game-nav {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.game-nav .game{
+  background: linear-gradient(60deg, rgba(16,25,37,1) 0%, rgba(0,0,1) 50%, rgba(16,25,37,1) 100%);
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 20%;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 0px solid #576170;
+  color: white;
+}
+
+.game-nav .game:hover {
+  border: 2px solid #576170;
+}
+
+.game-nav .game.active {
+  overflow: visible;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #576170;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.game-nav .game.active::after {
+  content: "Explore";
+  position: absolute;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 100;
+  bottom: 0.5rem;
+  right: -6rem;
+}
+
+.game-nav .game.active .fa{
+  font-size: 4rem;
+}
+
+.game-nav .game .img {
+  width: 5rem;
+  height: 5rem;
+  background-size: cover;
+}
+
+.info {
+  width: 50%;
+  margin-bottom: 3rem;
+}
+
+.info .sub-title {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #8f97aa;
+}
+
+.info h1 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: white;
+}
+
+.info p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #8f97aa;
+}
+
+#video-trailers {
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding-left: 5%;
+}
+
+#video-trailers .trailer {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  width: 16rem;
+  height: 10rem;
+  background: linear-gradient(60deg, rgba(16,25,37,1) 0%, rgba(0,0,1) 50%, rgba(16,25,37,1) 100%);
+  margin-right: 1.2rem;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+#video-trailers .trailer:hover img {
+  opacity: 1;
+}
+
+#video-trailers .trailer img {
+  opacity: 0.5;
+  transition: opacity 0.4s ease-in-out;
+  width: 16rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+#video-trailers .trailer .video-info {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  color: white;
+  padding: 1rem;
+}
+
+#video-trailers .trailer .circle-player {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
