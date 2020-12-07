@@ -1,4 +1,4 @@
-<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20" height="200px" align="right"/>
+<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20" height="100px" align="right"/>
 
 # PS5 Clone
 
