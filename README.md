@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20" height="200px" align="right"/>
+
+# PS5 Clone
+
+This project was designed to clone the Latest PS5 Dashboard <br />
+ [Checkout the demo](https://ps5-clone.web.app)
 
 ## Getting Started
 
