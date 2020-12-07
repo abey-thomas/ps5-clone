@@ -4,6 +4,11 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="screen">
+      <Head>
+         <title>PS5 Clone</title>
+         <link rel="icon" href="/favicon.ico" />
+       </Head>
+       <main>
       <header>
         <section className="media-nav">
           <a href="#" className="active">
@@ -168,6 +173,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
+    </main>
     </div>
   )
 }
