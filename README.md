@@ -1,6 +1,6 @@
 <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20" height="100px" align="right"/>
 
-# PS5 Clone
+# PS5 Dashboard Clone
 
 This project was designed to clone the Latest PS5 Dashboard <br />
  [Checkout the demo](https://ps5-clone.web.app)
